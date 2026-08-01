@@ -1,7 +1,27 @@
 aid: own-up
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/own-up.png
 name: Own Up
-description: Own Up is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Own Up is an AI-driven mortgage marketplace that helps borrowers shop for home
+  loans by comparing personalized rate offers from a network of top-rated lenders
+  without hard credit checks or sales pressure. It provides real-time rate
+  comparisons, personalized recommendations, pre-approval letters, and educational
+  resources for both home purchases and refinancing. Own Up is not a lender or bank;
+  it arranges loans and is compensated by third-party lenders whose offers appear on
+  the platform. Surfaced as a Techstars portfolio company and profiled in the API
+  Evangelist network; the company publishes no public developer API, SDKs, or
+  developer portal at this time.
 url: https://raw.githubusercontent.com/api-evangelist/own-up/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Mortgage
+- Lending
+- Fintech
+- Home Loans
+- Real Estate
+- Marketplace
+- Consumer Finance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,18 @@ maintainers:
 common:
 - type: Website
   url: https://ownup.com/
+- type: Support
+  url: https://www.ownup.com/faq
+- type: Blog
+  url: https://www.ownup.com/learn/
+- type: TermsOfService
+  url: https://www.ownup.com/terms-conditions/
+- type: PrivacyPolicy
+  url: https://www.ownup.com/privacy/
+- type: DomainSecurity
+  url: security/own-up-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
